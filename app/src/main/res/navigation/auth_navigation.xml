@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/auth_navigation"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.yashkasera.aphrodite.ui.auth.LoginFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_bottomMessageDialog"
+            app:destination="@id/bottomMessageDialog" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.yashkasera.aphrodite.ui.auth.SignUpFragment"
+        android:label="SignUpFragment"
+        tools:layout="@layout/fragment_signup">
+        <action
+            android:id="@+id/action_signUpFragment_to_bottomMessageDialog"
+            app:destination="@id/bottomMessageDialog" />
+    </fragment>
+    <dialog
+        android:id="@+id/otpDialog"
+        android:name="com.yashkasera.aphrodite.ui.auth.OtpDialog"
+        android:label="OtpDialog"
+        tools:layout="@layout/dialog_otp"/>
+    <dialog
+        android:id="@+id/bottomMessageDialog"
+        android:name="com.yashkasera.aphrodite.ui.dialogs.BottomMessageDialog"
+        android:label="BottomMessageDialog"
+        tools:layout="@layout/dialog_message">
+        <argument
+            android:name="data"
+            app:argType="com.yashkasera.aphrodite.ui.dialogs.DialogData" />
+    </dialog>
+</navigation>

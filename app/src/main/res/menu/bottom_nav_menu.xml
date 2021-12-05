@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:title="@string/title_home"
+        android:icon="@drawable/ic_round_home_24"/>
+    <item
+        android:id="@+id/navigation_requests"
+        android:title="@string/title_requests"
+        android:icon="@drawable/ic_round_search_24"/>
+    <item
+        android:id="@+id/navigation_chat"
+        android:title="@string/title_chat"
+        android:icon="@drawable/ic_round_chat_24"/>
+</menu>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Aphrodite</string>
+    <string name="title_home">Home</string>
+    <string name="title_requests">Requests</string>
+    <string name="title_chat">Chat</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="agora_app_id">2856b94c52ab48e4995c31d91639b8f1</string>
+    <string name="agora_access_token">0062856b94c52ab48e4995c31d91639b8f1IAC5VF+HNR99C+Ef0R/G/wKMjVuAvbyIVqInrBdackt0t+LcsooAAAAAEAAcJkWA8eijYQEAAQDw6KNh</string>
+    <string name="on_boarding">On Boarding Image</string>
+    <string name="continue_btn">Continue</string>
+    <string name="next_btn">Next</string>
+    <string name="on_boarding_1">Is it that time of the month again?</string>
+    <string name="on_boarding_2">Need help urgently within your close proximity?</string>
+    <string name="on_boarding_3">Want to seek or help people around you in times of need?</string>
+    <string name="faq_answer">Tap on the SOS button to send an SOS message to the last 5 Aphrodite users, you came in contact with. \nWait for someone to respond, talk to this secret angel and request for a sanitary napkin. Once your request has been granted, acknowledge their service and be grateful to them.</string>
+    <string name="goodfaith">PS: This app was built in good faith to help women in times of need. Please be a responsible human and use it wisely.</string>
+</resources>
