@@ -14,3 +14,7 @@
 .cxx
 local.properties
 /app/google-services.json
+.env
+node_modules
+package-lock.json
+```
